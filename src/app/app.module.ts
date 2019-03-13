@@ -8,7 +8,6 @@ import { MainComponent } from './main/main.component';
 import { AddressFormComponent } from './address-form/address-form.component';
 import { MatInputModule, MatButtonModule, MatSelectModule, MatRadioModule, MatCardModule, MatToolbarModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatMenuModule, MatTreeModule, MatTableModule, MatPaginatorModule, MatSortModule } from '@angular/material';
 import { ReactiveFormsModule } from '@angular/forms';
-import { NavComponent } from './nav/nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { TreeComponent } from './tree/tree.component';
@@ -21,7 +20,6 @@ import { TableComponent } from './table/table.component';
     AppComponent,
     MainComponent,
     AddressFormComponent,
-    NavComponent,
     DashboardComponent,
     TreeComponent,
     DragDropComponent,

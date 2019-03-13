@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AddressFormComponent } from './address-form/address-form.component';
-import { NavComponent } from './nav/nav.component';
+
 import { MainComponent } from './main/main.component';
 import { TableComponent } from './table/table.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -12,7 +12,6 @@ const routes: Routes = [
 
   { path: '', component: MainComponent },
   { path: 'address-form', component: AddressFormComponent },
-  { path: 'nav', component: NavComponent },
   { path: 'table', component: TableComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'tree', component: TreeComponent },
